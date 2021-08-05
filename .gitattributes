@@ -1,0 +1,10 @@
+* text=auto
+
+# Visual Studio
+*.sln text eol=crlf merge=union
+*.csproj merge=union
+*.cs diff=csharp
+
+# Generated Files
+*.js.map binary
+*.map binary
